@@ -1,0 +1,14 @@
+/* Rectangle 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 361.31px;
+height: 263px;
+left: 14.34px;
+top: 480px;
+
+background: linear-gradient(270deg, #0D0718 0%, rgba(15, 8, 27, 0) 47.85%, #0B0614 100%);
+border: 1px solid rgba(255, 255, 255, 0.1);
+filter: drop-shadow(0px -20px 70px rgba(140, 69, 255, 0.25)) drop-shadow(0px -19px 70px rgba(140, 69, 255, 0.4));
+border-radius: 10px;

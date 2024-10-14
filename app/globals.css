@@ -2,26 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+    background: #020103;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+header button {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: inset 0px 0px 6px 3px rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+}
+
+.hero-image {
+ 
+    background: linear-gradient(270deg, #0D0718 0%, rgba(15, 8, 27, 0) 47.85%, #0B0614 100%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    filter: drop-shadow(0px -20px 15px rgba(140, 69, 255, 0.25)) drop-shadow(0px -19px 20px rgba(140, 69, 255, 0.4));
+    border-radius: 10px;
   }
+
+@media (max-width: 350px) {
+    .resizing-text h1 {
+        font-size: 42px;
+    }
 }
