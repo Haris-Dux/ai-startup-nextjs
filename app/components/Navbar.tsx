@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Navbar: React.FC = () => {
   return (
-    <header className="container  border-b border-[#616062]">
+    <header className="w-full border-b border-[#616062]">
       <div className="flex items-center mx-2 md:mx-8 lg:mx-16 justify-between py-3  ">
         <Image src={"/Logo.png"} width={38} height={38} alt="main-logo" />
         <div className="text-[#616062] font-normal py-2 px-7 hidden md:flex  items-cente gap-6  border border-[#616062] rounded-3xl">
